@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.buton {
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.buton-edit {
+    background-color: #4CAF50;
+}
+.buton-delete {
+    background-color: #f44336;
+}
+.layanan {
+    text-align: center; /* Center the content inside the .layanan div */
+}
+
+.layanan label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.layanan input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.layanan div {
+    display: inline-block;
+    text-align: left; /* Align the text to the left inside the inline-block div */
+    margin: 10px 0;
+}
